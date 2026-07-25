@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aptitude Master</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Segoe UI,Arial,sans-serif;
+background:linear-gradient(135deg,#6a11cb,#2575fc);min-height:100dvh;color:#fff;overflow-x:hidden;overflow-y:auto}
+.bg span{position:absolute;border-radius:50%;background:rgba(255,255,255,.08);animation:float 12s infinite}
+.bg span:nth-child(1){width:220px;height:220px;left:5%;top:8%}
+.bg span:nth-child(2){width:140px;height:140px;right:8%;top:15%}
+.bg span:nth-child(3){width:180px;height:180px;left:35%;bottom:8%}
+@keyframes float{50%{transform:translateY(-30px) scale(1.08)}}
+.wrap{position:relative;z-index:1;min-height:100dvh;padding:50px 20px 30px;text-align:center}
+h1{font-size:3rem;margin:.2em 0}
+p{opacity:.9}
+.cards{display:flex;flex-wrap:wrap;justify-content:center;gap:28px;margin-top:40px}
+.card{width:300px;padding:28px;border-radius:22px;background:rgba(255,255,255,.12);
+backdrop-filter:blur(10px);box-shadow:0 10px 30px rgba(0,0,0,.25);
+transition:.35s;text-decoration:none;color:#fff}
+.card:hover{transform:translateY(-10px) scale(1.03)}
+.icon{font-size:54px}
+.card h2{margin:14px 0}
+.btn{display:inline-block;margin-top:18px;padding:12px 22px;background:#fff;color:#2575fc;
+border-radius:999px;font-weight:700}
+footer{margin-top:50px;opacity:.95}
+</style>
+</head>
+<body>
+<div class="bg"><span></span><span></span><span></span></div>
+<div class="wrap">
+<h1>🎓 Aptitude Master</h1>
+<p>Choose a topic and start learning.</p>
+<div class="cards">
+<a class="card" href="https://ratioproportionfinal.netlify.app/" target="_blank">
+<div class="icon">⚖️</div>
+<h2>Ratio & Proportion</h2>
+<p>Master ratios, mixtures, partnership and comparisons.</p>
+<div class="btn">Start Learning</div>
+</a>
+<a class="card" href="https://percentagee.netlify.app/" target="_blank">
+<div class="icon">📊</div>
+<h2>Percentage</h2>
+<p>Concepts, tricks and passage-based questions.</p>
+<div class="btn">Start Learning</div>
+</a>
+<a class="card" href="https://speedtimesidtance.netlify.app/" target="_blank">
+<div class="icon">🚄</div>
+<h2>Distance • Time • Speed</h2>
+<p>Trains, boats, races, clocks and circular tracks.</p>
+<div class="btn">Start Learning</div>
+</a>
+</div>
+<footer>Made with ❤️ for someone special. (you)😉</footer>
+</div>
+</body>
+</html>
